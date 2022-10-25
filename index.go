@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Nur Hossain")
+	var student string
+
+	var isValid bool
+	x := 2
+
+	fmt.Println(student)
+	fmt.Println(x)
+	isValid = true
+	fmt.Println(isValid)
 }
